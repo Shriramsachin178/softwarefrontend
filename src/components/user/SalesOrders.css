@@ -1,0 +1,29 @@
+/* General container for the sales orders */
+.sales-orders-container {
+    padding: 20px;
+}
+
+  /* Search bar styling */
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 8px 16px 0px;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.search-icon {
+    color: #aaa;
+}

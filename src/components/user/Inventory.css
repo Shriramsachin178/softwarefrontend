@@ -1,0 +1,53 @@
+/* src/components/Inventory.css */
+.hero {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inventory-containers {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.inventory-container {
+    background-color: #f4f4f4;
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.inventory-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.inventory-container h2 {
+    margin-bottom: 20px;
+}
+
+.btn-add-item,
+.btn-add-group,
+.btn-price-list {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 50%;
+    margin-top: 200px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-add-item:hover,
+.btn-add-group:hover,
+.btn-price-list:hover {
+    background-color: #0056b3;
+}
